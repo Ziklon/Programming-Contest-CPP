@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/wilber/ClionProjects/Programming-Contest/tasks/CLongBeautifulInteger.cpp
+bits/stdc++.h
+-
+
+/Users/wilber/ClionProjects/Programming-Contest/testrunner/main.cpp
+/Users/wilber/ClionProjects/Programming-Contest/tasks/CLongBeautifulInteger.cpp
+-
+iostream
+-
+fstream
+-
+sstream
+-
+string
+-
+vector
+-
+cctype
+-
+ctime
+-
+

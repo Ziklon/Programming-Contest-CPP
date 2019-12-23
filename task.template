@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+
+#define pb push_back
+#define sz(v) ((int)(v).size())
+#define all(v) (v).begin(),(v).end()
+#define mp make_pair
+
+using namespace std;
+
+class %ClassName% {
+public:
+	void solve(std::istream& in, std::ostream& out) {
+
+	}
+};
