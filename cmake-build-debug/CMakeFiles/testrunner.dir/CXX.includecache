@@ -6,12 +6,12 @@
 
 #IncludeRegexTransform: 
 
-/Users/wilber/ClionProjects/Programming-Contest/tasks/CLongBeautifulInteger.cpp
+/Users/wcristob/Documents/repos/Programming-Contest-CPP/tasks/BModuloEquality.cpp
 bits/stdc++.h
 -
 
-/Users/wilber/ClionProjects/Programming-Contest/testrunner/main.cpp
-/Users/wilber/ClionProjects/Programming-Contest/tasks/CLongBeautifulInteger.cpp
+/Users/wcristob/Documents/repos/Programming-Contest-CPP/testrunner/main.cpp
+/Users/wcristob/Documents/repos/Programming-Contest-CPP/tasks/BModuloEquality.cpp
 -
 iostream
 -

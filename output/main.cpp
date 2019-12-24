@@ -6,44 +6,47 @@
 
 #include <bits/stdc++.h>
 
+#define all(v) (v).begin(),(v).end()
+
 using namespace std;
 
-class CLongBeautifulInteger {
-public:
-    void solve(std::istream &in, std::ostream &out) {
-        int n, k;
-        in >> n >> k;
+class BModuloEquality {
+ public:
+  void solve(std::istream &in, std::ostream &out) {
+    int n, m;
+    in >> n >> m;
 
-        string s;
-        in >> s;
+    vector<int> a(n), b(n);
+    for (int i = 0; i < n; ++i)in >> a[i];
+    for (int i = 0; i < n; ++i)in >> b[i];
 
-        string t = s;
+    sort(all(b));
+    set<int> S;
 
-        for (int i = k; i < n; ++i) t[i] = t[i - k];
+    int ans = INT_MAX;
+    for (int i = 0; i < n; ++i) {
+      int k = (b[0] - a[i] + m) % m;
 
-        out << n << '\n';
+      if (S.count(k))continue;
 
+      vector<int> tmp(n);
+      for (int j = 0; j < n; ++j) tmp[j] = (k + a[j]) % m;
 
-        if (t >= s) out << t << '\n';
-        else {
-            for (int i = k - 1; i >= 0; --i) {
-                if (t[i] == '9')t[i] = '0';
-                else {
-                    t[i]++;
-                    break;
-                }
-            }
-            for (int i = k; i < n; ++i) t[i] = t[i - k];
-            out << t << '\n';
-        }
+      sort(all(tmp));
 
+      if (tmp == b) {
+        ans = min(ans, k);
+      }
+      S.insert(k);
     }
+    out << ans << endl;
+  }
 };
 
 int main() {
-    CLongBeautifulInteger solver;
-    std::istream &in(std::cin);
-    std::ostream &out(std::cout);
-    solver.solve(in, out);
-    return 0;
+  BModuloEquality solver;
+  std::istream &in(std::cin);
+  std::ostream &out(std::cout);
+  solver.solve(in, out);
+  return 0;
 }

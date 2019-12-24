@@ -1,4 +1,4 @@
-#include "/Users/wilber/ClionProjects/Programming-Contest/tasks/CLongBeautifulInteger.cpp"
+#include "/Users/wcristob/Documents/repos/Programming-Contest-CPP/tasks/BModuloEquality.cpp"
 
 #include <iostream>
 #include <fstream>
@@ -29,7 +29,7 @@ bool check(std::string expected, std::string actual) {
 
 int main() {
 	std::vector<jhelper::Test> tests = {
-		{"3 2\n353\n", "3\n353\n", true, true},{"4 2\n1234\n", "4\n1313\n", true, true},
+		{"4 3\n0 0 2 1\n2 0 1 1\n", "1\n", true, true},{"3 2\n0 0 0\n1 1 1\n", "1\n", true, true},{"5 10\n0 0 0 1 2\n2 1 0 0 0\n", "0\n", true, true},
 	};
 	bool allOK = true;
 	int testID = 0;
@@ -48,7 +48,7 @@ int main() {
 			std::stringstream in(test.input);
 			std::ostringstream out;
 			std::clock_t start = std::clock();
-			CLongBeautifulInteger solver;
+			BModuloEquality solver;
 			solver.solve(in, out);
 			std::clock_t finish = std::clock();
 			double currentTime = double(finish - start) / CLOCKS_PER_SEC;

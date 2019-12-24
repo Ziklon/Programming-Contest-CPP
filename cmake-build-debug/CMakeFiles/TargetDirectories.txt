@@ -1,5 +1,5 @@
-/Users/wilber/ClionProjects/Programming-Contest/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/wilber/ClionProjects/Programming-Contest/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/wilber/ClionProjects/Programming-Contest/cmake-build-debug/CMakeFiles/Programming_Contest.dir
-/Users/wilber/ClionProjects/Programming-Contest/cmake-build-debug/CMakeFiles/testrunner.dir
-/Users/wilber/ClionProjects/Programming-Contest/cmake-build-debug/CMakeFiles/output.dir
+/Users/wcristob/Documents/repos/Programming-Contest-CPP/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/wcristob/Documents/repos/Programming-Contest-CPP/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/wcristob/Documents/repos/Programming-Contest-CPP/cmake-build-debug/CMakeFiles/Programming_Contest.dir
+/Users/wcristob/Documents/repos/Programming-Contest-CPP/cmake-build-debug/CMakeFiles/testrunner.dir
+/Users/wcristob/Documents/repos/Programming-Contest-CPP/cmake-build-debug/CMakeFiles/output.dir
