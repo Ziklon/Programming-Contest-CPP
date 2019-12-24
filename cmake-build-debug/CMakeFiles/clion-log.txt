@@ -1,4 +1,4 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/local/Cellar/gcc/8.3.0_2/bin/gcc-8 -DCMAKE_CXX_COMPILER=/usr/local/Cellar/gcc/8.3.0_2/bin/g++-8 -G "CodeBlocks - Unix Makefiles" /Users/wcristob/Documents/repos/Programming-Contest-CPP
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/local/Cellar/gcc/9.2.0/bin/gcc-9 -DCMAKE_CXX_COMPILER=/usr/local/Cellar/gcc/9.2.0/bin/g++-9 -G "CodeBlocks - Unix Makefiles" /Users/wilber/ClionProjects/Programming-Contest
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/wcristob/Documents/repos/Programming-Contest-CPP/cmake-build-debug
+-- Build files have been written to: /Users/wilber/ClionProjects/Programming-Contest/cmake-build-debug

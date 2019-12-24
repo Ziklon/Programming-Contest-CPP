@@ -6,12 +6,12 @@
 
 #IncludeRegexTransform: 
 
-/Users/wcristob/Documents/repos/Programming-Contest-CPP/tasks/BModuloEquality.cpp
+/Users/wilber/ClionProjects/Programming-Contest/tasks/B2KForThePriceOfOneHardVersion.cpp
 bits/stdc++.h
 -
 
-/Users/wcristob/Documents/repos/Programming-Contest-CPP/testrunner/main.cpp
-/Users/wcristob/Documents/repos/Programming-Contest-CPP/tasks/BModuloEquality.cpp
+/Users/wilber/ClionProjects/Programming-Contest/testrunner/main.cpp
+/Users/wilber/ClionProjects/Programming-Contest/tasks/B2KForThePriceOfOneHardVersion.cpp
 -
 iostream
 -

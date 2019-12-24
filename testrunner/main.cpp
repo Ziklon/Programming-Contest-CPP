@@ -1,4 +1,4 @@
-#include "/Users/wcristob/Documents/repos/Programming-Contest-CPP/tasks/BModuloEquality.cpp"
+#include "/Users/wilber/ClionProjects/Programming-Contest/tasks/B2KForThePriceOfOneHardVersion.cpp"
 
 #include <iostream>
 #include <fstream>
@@ -29,7 +29,7 @@ bool check(std::string expected, std::string actual) {
 
 int main() {
 	std::vector<jhelper::Test> tests = {
-		{"4 3\n0 0 2 1\n2 0 1 1\n", "1\n", true, true},{"3 2\n0 0 0\n1 1 1\n", "1\n", true, true},{"5 10\n0 0 0 1 2\n2 1 0 0 0\n", "0\n", true, true},
+		{"8\n5 6 2\n2 4 3 5 7\n5 11 2\n2 4 3 5 7\n3 2 3\n4 2 6\n5 2 3\n10 1 3 9 2\n2 10000 2\n10000 10000\n2 9999 2\n10000 10000\n4 6 4\n3 2 3 2\n5 5 3\n1 2 2 1 2\n", "3\n4\n1\n1\n2\n0\n4\n5\n", true, true},
 	};
 	bool allOK = true;
 	int testID = 0;
@@ -48,7 +48,7 @@ int main() {
 			std::stringstream in(test.input);
 			std::ostringstream out;
 			std::clock_t start = std::clock();
-			BModuloEquality solver;
+			B2KForThePriceOfOneHardVersion solver;
 			solver.solve(in, out);
 			std::clock_t finish = std::clock();
 			double currentTime = double(finish - start) / CLOCKS_PER_SEC;
